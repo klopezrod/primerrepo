@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FUENTE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap" rel="stylesheet">
+    <!-- link a bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <!-- Etiquetas NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-md bg-dark" data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="../multimedia/LogoYeya.png" alt="Bootstrap">
+                  </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/about.html">Sobre Nosotros</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../pages/contacto.html">Contactanos</a>
+                            </li>
+                                </a>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <main class="main-contacto">
+        
+        <h1>Contacto</h1>
+
+        <form action="">
+            <div>
+                <label for="nombre"> Nombre:</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre">
+            </div>
+
+            <div>
+                <label for="apellido ">Apellido:</label>
+                <input type="text" name="apellido" placeholder="Ingrese su apellido">
+            </div>
+
+            <div>
+
+                <label for="email">Email:</label>
+                <input type="email" name="email" placeholder="Ingrese su email">
+            </div>
+
+            <div>
+                <label for="password"> Ingresar contraseña: </label>
+                <input type="password" name="password" placeholder="Ingrese su contraseña">
+            </div>
+            <div>
+                <label for="mensaje">Deje su mensaje</label>
+                <textarea name="" id="" cols="50" rows="10"> Deje su mensaje</textarea>
+            </div>
+
+            <div>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Resetear formulario">
+            </div>
+
+        </form>
+
+    </main>
+    <!-- FOOTER -->
+    <footer class="pie">
+        <footer id="footer">
+            <ul class="nav-list">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="pages/about.html" class="nav-link">Nosotros</a></li>
+                <li><a href="pages/galeria.html" class="nav-link">Galeria</a></li>
+                <li><a href="pages/contacto.html" class="nav-link">Contacto</a></li>
+            </ul>
+        </footer>
+        <ul class="nav-list2">
+            <li><a href="none" target="_blank"><img src="../multimedia/facebook.png" alt="facebook" class="redes"></a>
+            </li>
+            <li><a href="https://www.instagram.com/estiloyeya" target="_blank"><img src="../multimedia/ig.png"
+                        alt="instagram" class="redes"></a></li>
+            <li><a href="https://www.tiktok.com/@estiloyeya" target="_blank"><img src="../multimedia/tik tok.png"
+                        alt="Tik tok" class="redes"></a></li>
+        </ul>
+        <h2>
+            Estilo Yeya
+        </h2>
+        <p>
+            ©2023 Estilo Yeya Studio - Marca Registrada
+        </p>
+    </footer>
+
+    <!-- script bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
