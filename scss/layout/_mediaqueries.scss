@@ -1,0 +1,105 @@
+@media screen and (min-width: 480px) {
+    .media {
+        background-color: #657749;
+    }
+
+}
+/* MEDIA DE TABLET */
+@media screen and (min-width: 600px) {
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        font-size: 24px;
+    }
+
+    .media {
+        background-color: #ffffff00;
+        flex-direction: row;
+    }
+
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+        object-fit: cover;
+    }
+    
+    .card__body {
+        padding: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        gap: 12px;
+    
+    }
+    
+    .c-row {
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+    }
+
+}
+
+/* MEDIA DE NOTEBOOK/DESKTOP */
+@media screen and (min-width: 768px) {
+
+    .media {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'caja1 caja2'
+            'caja3 caja3'
+        ;
+        gap: 20px;
+        padding: 30px;
+    }
+
+    .centre{
+        left: 55%;
+    }
+
+    .centre2{
+        text-align: justify;
+        position: sticky;
+        left: 45%;
+        font-size: 25px;
+
+    }
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto;
+        grid-template-areas:
+            'area6 area6 area1 area7'
+            'area6 area6 area2 area7'
+            'area4 area5 area3 area3'
+            'area4 area5 area3 area3';
+    }
+
+    .c7 img, .c6 img {
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1080px) {
+
+.centre{
+    top: 45%;
+    left: 73%;
+
+}
+.centre2{
+        text-align: justify;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        font-size: 25px;
+}
+
+
+
+}

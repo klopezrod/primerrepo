@@ -1,0 +1,66 @@
+.grilla {
+    background-color: #0000006b;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.caja {
+    width: 100%;
+    min-height: 400px;
+    max-height: 100%;
+}
+
+.caja img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(90%) blur(5px);
+    transition: .4s;
+}
+
+.caja img:hover {
+    filter: grayscale(0) blur(0);
+    
+    .c1 {
+        grid-area: area1;
+    }
+    
+    .c2 {
+        grid-area: area2;
+    }
+    
+    .c3 {
+        grid-area: area3;
+    }
+    
+    .c4 {
+        grid-area: area4;
+    }
+    
+    .c5 {
+        grid-area: area5;
+    }
+    
+    .c6 {
+        grid-area: area6;
+    }
+    
+    .c7 {
+        grid-area: area7;
+    
+    }
+
+}
+
+/*.media {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #497777;
+    padding: 10px;
+}*/

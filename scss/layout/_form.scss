@@ -1,0 +1,61 @@
+.main-contacto h1{
+    background-color: $maincolor;
+    text-align: center;
+    padding: 20px 1;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: $darktheme;
+    padding: 10px;
+
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+label {
+    color: #eee;
+    font-size: 24px;
+}
+
+input, textarea {
+    width: 320px;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+input:hover , textarea:hover{
+    background-color: rgb(228, 216, 201);
+    width: 300px;
+}
+
+.form-control:focus {
+    background-color: #faebd7;
+    outline: none;
+    box-shadow: 4px 5px 13px 0px rgb(206, 167, 116);
+    border: none;
+}
+
+.btn-primary {
+    background-color: rgb(206, 167, 116);
+    border: 2px solid rgb(253, 178, 80);
+}
+
+.btn:hover {
+    background-color: rgb(160, 127, 84);
+    border: 2px solid rgb(253, 178, 80);
+}
+
+.textarea {
+    resize: none;
+
+}

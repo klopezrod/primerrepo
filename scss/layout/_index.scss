@@ -1,0 +1,121 @@
+.caja-media {
+    background-image: url(../multimedia/foto1.png);
+    background-repeat: no-repeat;
+    background-color: #191919;
+    padding: 10px;
+    height: 700px;
+    width: 100%;
+}
+.centre {
+    background-color: #1919195d;
+    position: absolute;
+    text-align: center;
+    top: 60%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+.centre2{
+    background-color: #1919195d;
+    color: #eee;
+    text-align: justify;
+    position: sticky;
+    font-size: 20px;
+    top: 70%;
+    left: 30%;
+    padding: 20px;
+}
+
+.centre2 a {
+    text-decoration: none;
+    background-color: #cca34b;
+    border-radius: 5px;
+    color: black;
+    gap: 10px;
+    padding: 2px;
+
+}
+
+/* MAIN */
+
+.desc{
+    width: 800px;
+    text-align: justify;
+    font-size: 25px;
+    margin: 150px;
+}
+
+/*SERVICIOS*/
+
+.cards {
+    @include flex(column, space-between, center);
+    height: 100%;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.card {
+    width: 90%;
+    background-color: #eee;
+    border: 2px solid black;
+}
+
+.card img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.card__body {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.card__body h3 {
+    font-size: 30px;
+}
+
+.card__body h4{
+    font-size: 30px;
+}
+
+.card__body p{
+    font-size: 30px;
+}
+
+.card__body a {
+    text-decoration: none;
+    background-color: #b17d3a;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    width: 80px;
+    align-self: flex-end;
+    text-align: center;
+}
+
+.c-row {
+    display: flex;
+    flex-direction: column;
+    width: 81%;
+}
+
+/* MAIN ABOUT */
+
+.main-about h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.hijos {
+    padding: 15px;
+}
+
+
+.hijos p {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 0;
+}
