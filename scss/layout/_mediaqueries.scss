@@ -19,10 +19,16 @@
         flex-direction: row;
     }
 
+    .cards {
+        @include flex(wrap, space-evenly, center);
+        height: 100%;
+        padding: 20px 0;
+        gap: 20px;
+        object-fit: cover;
+    }
 
     .card {
-        display: flex;
-        flex-direction: column;
+        @include flex(column,space-evenly, center);
         width: 35%;
         object-fit: cover;
     }
