@@ -7,19 +7,7 @@
 
 .img-about{
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    justify-content: center;
+    height: 400px;
     object-fit: cover;
 }
-
-
-/*.hijos {
-    padding: 15px;
-}
-
-
-.hijos p {
-    font-size: 24px;
-    font-weight: bold;
-    padding: 15px 0;
-}*/

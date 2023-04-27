@@ -4,7 +4,7 @@
 }
 
 .grilla {
-    background-color: #0000006b;
+    background-color: #ffffff6b;
     padding: 10px;
     /*display: flex;
     flex-direction: column;*/
@@ -21,8 +21,9 @@
 .caja img {
     width: 100%;
     height: 100%;
+    padding: 5px;
     object-fit: cover;
-    filter: grayscale(90%) blur(5px);
+    filter: grayscale(60%) blur(3px);
     transition: .4s;
 }
 
@@ -55,6 +56,11 @@
     
     .c7 {
         grid-area: area7;
+    
+    }
+
+    .c8 {
+        grid-area: area8;
     
     }
 
