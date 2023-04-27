@@ -1,8 +1,13 @@
+.tit{
+    font-size: 40px;
+    font-style: italic;
+}
+
 .grilla {
     background-color: #0000006b;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
+    /*display: flex;
+    flex-direction: column;*/
     gap: 10px;
 }
 
@@ -54,6 +59,9 @@
     }
 
 }
+
+
+
 
 /*.media {
     display: flex;

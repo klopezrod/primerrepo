@@ -1,0 +1,25 @@
+.main-about h1 {
+    font-style: italic;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.img-about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*.hijos {
+    padding: 15px;
+}
+
+
+.hijos p {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 0;
+}*/

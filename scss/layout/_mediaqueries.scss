@@ -47,6 +47,11 @@
         width: 80%;
     }
 
+    .grilla {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    
+    }
 }
 
 /* MEDIA DE NOTEBOOK/DESKTOP */
@@ -58,8 +63,7 @@
         grid-template-rows: auto;
         grid-template-areas:
             'caja1 caja2'
-            'caja3 caja3'
-        ;
+            'caja3 caja3';
         gap: 20px;
         padding: 30px;
     }
@@ -105,7 +109,4 @@
         left: 45%;
         font-size: 25px;
 }
-
-
-
 }
