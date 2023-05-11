@@ -345,11 +345,9 @@ input:hover, textarea:hover {
 
 .img-about {
   justify-content: center;
-  height: 400px;
+  width: 100%;
+  height: 10%;
   object-fit: cover;
-}
-.img-about img {
-  width: auto;
 }
 
 .tarjetas {
