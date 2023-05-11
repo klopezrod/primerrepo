@@ -6,8 +6,11 @@
 }
 
 .img-about{
-    display: flex;
     justify-content: center;
     height: 400px;
     object-fit: cover;
+
+    img {
+        width: auto;
+    }
 }
